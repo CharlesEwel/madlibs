@@ -7,6 +7,7 @@ $(document).ready(function() {
       var verbInput = $("input#verb").val();
       var nounInput = $("input#noun").val();
       var name = $("input#name").val();
+      var phrase = $("input#phrase").val();
 
       $(".person1").append(person1Input);
       $(".person2").append(person2Input);
@@ -15,6 +16,7 @@ $(document).ready(function() {
       $(".verb").append(verbInput);
       $(".noun").append(nounInput);
       $(".name").append(name);
+      $(".phrase").append(phrase.toUpperCase());
 
       $("#story").show();
 
